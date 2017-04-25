@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eftimie Murgu</title>
+		<link rel="icon" href="../images/Stema-CS.png" type="image/x-icon">
+		<link rel="stylesheet" href="../css/Informații_Style.css" type="text/css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+		<style>    
+			div.panel1 {
+						padding: 5px;
+						display: block;
+						background-color:#00CED1;
+						}	
+		</style>    
+	</head>
+    
+	<body>
+		<!--Meniul principal-->
+		<div id="Menu">
+			<center>
+				<img src="../images/Stema-RO.png" align="center" class="stemaRO">
+				<a href="../index.html"><button class="Menu_Button">Acasă</button></a>
+				<a href="obiective_turistice.html"><button class="Menu_Button">Obiective turistice</button></a>
+				<a href="informații.html"><button class="Menu_Button"  style="background: linear-gradient(to bottom right, blue,yellow,red);}">Informații</button></a>
+				<a href="galerie_foto.html"><button class="Menu_Button">Galerie foto</button></a>
+				<a href="contact.html"><button class="Menu_Button">Contact</button></a>
+				<img src="../images/Stema-CS1.png" align="center" class="stemaCS">
+			</center>
+		</div>
+
+		<div id="container">
+			<div id="right"> 
+				<h2><b>Informații</b></h2>
+
+				<button class="accordion"><b>Personalități</b></button>
+						<div class="panel">
+							<a href="Eftimie Murgu.html"><button class="accordion_"><i>- Eftimie Murgu</i></button></a>
+							<a href="Dr_Ion_Sîrbu.html"><button class="accordion_"><i>- Dr. Ion Sîrbu</i></button></a>
+						</div>
+						
+				<a href="dezastru natural.html"><button class="accordion"><b>Dezastru natural</b></button></a>
+
+				<button class="accordion"  style="background-color:#FFA500;"><b>Obiceiuri și tradiții</b></button>
+						<div class="panel1">
+							<a href="smâlțul oilor.html"><button class="accordion_"><i>- Smâlțul oilor</i></button></a>
+							<a href="lunea cornilor.html"><button class="accordion_"><i>- Lunea Cornilor</i></button></a>
+							<a href="ruga bănățeană.html"><button class="accordion_"  style="background-color:#990033; color:white;"><i>- Ruga bănățeană</i></button></a>
+						</div>
+					
+				<a href="Primăria Eftimie Murgu.html"><button class="accordion"><b>Primăria Eftimie Murgu</b></button></a>
+				
+				<button class="accordion"><b>Informații pentru turiști</b></button>
+						<div class="panel">
+							<a href="ruga cazare.html"><button class="accordion_"><i>- Cazare</i></button></a>
+							<a href="restaurant.html"><button class="accordion_"><i>- Restaurant</i></button></a>
+							<a href="localizare.html"><button class="accordion_"><i>- Localizare pe hartă</i></button></a>
+							<a href="meteo.html"><button class="accordion_"><i>- Prognoza meteo</i></button></a>
+						</div>
+
+			<script>
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+						acc[i].onclick = function(){
+						this.classList.toggle("active");
+						this.nextElementSibling.classList.toggle("show");
+													}
+			}</script>
+
+			</div>
+		
+			<div id="left">
+				<h1>Ruga bănăţeană</h1>
+				
+                <p class="paragraf">
+                    <span class="alineat">După</span> șase săptămâni de la Sărbătoarea Învierii Domnului Isus Hristos, timp de două zile, joi și vineri, de Înălţarea Domnului, localnicii din Rudăria nu sărbătoresc doar hramul bisericii ortodoxe, ci şi <i><u>ruga bănăţeană</u></i> sau <i><u>nigeia</u></i>, cum este cunoscută în popor.
+				</p>
+                
+				<center>
+                    <img src="../images/ruga 1.jpg" class="image" width="765" height="500" title="Ruga bănățeană" alt="Această imagine nu poate fi afișată!"/>
+                </center>	
+				
+                <p class="paragraf">
+                    <span class="alineat">Sărbătoarea</span> începe încă de la primele ore ale dimineţii, cu participarea localnicilor la sfânta liturghie, după care urmează petrecerea, cu muzică şi bucate alese. 
+				</p>
+                
+				<center>
+                    <img src="../images/ruga 2.jpg" class="image" width="765" height="520" title="Ruga bănățeană" alt="Această imagine nu poate fi afișată!"/>
+                </center>
+				<br>
+			</div>
+		</div>
+		
+		<footer>
+				© Copyright 2017 | Toate drepturile rezervate
+				<br>
+                Web design by Samuel Turculescu
+		</footer>
+	</body>
+</html>

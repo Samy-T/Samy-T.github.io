@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eftimie Murgu</title>
+		<link rel="icon" href="../../images/Stema-CS.png" type="image/x-icon">
+		<link rel="stylesheet" href="../../css/Galerie_Style.css" type="text/css">
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<!-- Add jQuery library -->
+			<script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+
+		<!-- Add fancyBox main JS and CSS files -->
+			<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
+			<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+			<script type="text/javascript">
+				$(document).ready(function() {
+				/*
+				*  Simple image gallery. Uses default settings
+				*/
+
+				$('.fancybox').fancybox();
+				});
+			</script>	
+	</head>
+   
+	<body>
+		<!--Meniul principal-->
+		<div id="Menu">
+			<center>
+				<img src="../../images/Stema-RO.png" align="center" class="stemaRO">
+				<a href="../../index.html"><button class="Menu_Button">Acasă</button></a>
+				<a href="../../pages/obiective_turistice.html"><button class="Menu_Button">Obiective turistice</button></a>
+				<a href="../../pages/informații.html"><button class="Menu_Button">Informații</button></a>
+				<a href="../../pages/galerie_foto.html"><button class="Menu_Button"  style="background: linear-gradient(to bottom right, blue,yellow,red);}">Galerie foto</button></a>
+				<a href="../../pages/contact.html"><button class="Menu_Button">Contact</button></a>
+				<img src="../../images/Stema-CS1.png" align="center" class="stemaCS">
+			</center>
+		</div>
+
+		<div id="container">
+			<div id="right"> 
+				<h2><b>Albume foto</b></h2>
+				<a href="Mori de apă.html"><button class="accordion">Morile de apă</button></a>						
+				<a href="Muzeul satului.html"><button class="accordion">Muzeul satului</button></a>							
+				<a href="Valea Rudăriei.html"><button class="accordion">Valea Rudăriei</button></a>				
+				<a href="Lunea cornilor.html"><button class="accordion">Lunea cornilor</button></a>
+				<a href="Dezastru natural.html"><button class="accordion" style="background-color:#a6001a; color:white;">Dezastru natural</button></a>
+				<script>
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+						acc[i].onclick = function(){
+						this.classList.toggle("active");
+													}
+				}</script>
+			</div>
+
+			<div id="left">
+				<h1>Dezastru natural</h1>
+				<h3>Click pe imagine pentru a mări</h3>
+				<p> 	
+					<a class="fancybox" href="images/p1.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p1.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p2.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p2.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p3.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p3.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p4.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p4.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p5.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p5.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p6.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p6.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p7.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p7.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p8.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p8.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p9.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p9.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p10.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p10.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p11.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p11.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p12.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p12.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p13.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p13.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p14.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p14.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p15.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p15.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p16.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p16.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p17.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p17.jpg" alt="" width="200" height="150"/></a>
+					<a class="fancybox" href="images/p18.jpg" data-fancybox-group="gallery" title="Dezastru natural"><img src="images/p18.jpg" alt="" width="200" height="150"/></a>
+				</p>
+			</div>
+		</div>
+	
+		<footer>
+			<center>
+				© Copyright 2017 | Toate drepturile rezervate
+				<br>
+				Web design by Samuel Turculescu
+			</center>
+		</footer>
+	</body>	
+</html>

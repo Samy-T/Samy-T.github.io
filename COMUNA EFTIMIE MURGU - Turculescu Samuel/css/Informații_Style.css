@@ -1,0 +1,154 @@
+html{background-color:RGB(42,42,42);}
+
+body{background-color:RGB(42,42,42);
+     background-repeat: no-repeat;	
+     margin:auto;
+     width:1100px;}
+	  		   
+#Menu{border:0px solid black;
+      position:fixed;
+	  left:0;
+	  background-color:RGB(42,42,42);
+	  outline-width:8px;
+      outline-style:solid;
+	  outline-color:RGB(42,42,42);
+	  z-index:10;
+	  width:100%;
+	  max-width:100%;
+	  min-width:1200px;
+    }
+	  
+#Menu .stemaRO{ width:50px;
+        height:70px;
+        margin-left:-1cm;
+		}
+		
+#Menu button.Menu_Button{width:4.9cm;
+	               height:1cm;
+				   background-color:RGB(3,146,214);
+				   border:0px;
+				   margin:0.3cm;
+				   border-radius:30px/30px;
+				   color:black;
+				   font-size:20px;
+				   }
+				   
+				
+#Menu button.Menu_Button:hover{background: linear-gradient(to bottom right, blue,yellow,red);
+				              cursor:pointer;}
+#Menu button.Menu_Button:focus {outline:0;}
+               		
+#Menu .stemaCS{ width:60px;
+        height:80px;
+        margin-right:-1cm;
+		}
+				
+#container{min-width:100px;
+           padding-top:2.5cm;
+	       padding-bottom:0.7cm;
+	      }		
+
+#container #right{margin-top:2.4cm;
+            border:1px solid black;
+			max-width:7cm;
+			min-width:7cm;
+		    margin-left:22.5cm;
+			background-color:#990033;
+			color:black;
+			text-align:center;
+			top:0;
+			position:absolute;
+			border-radius:20px/20px;}
+
+#container #right h2{font-family:Gabriola;
+		             font-size:40px;
+		             color:white;}
+		
+#container #right button.accordion {
+    background-color:#0099FF;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	
+}
+
+#container #right button.accordion.active{
+    background-color:#FFA500; 
+}
+
+#container #right button.accordion:hover{background-color:#FFA500;}
+
+
+#container #right div.panel {
+    padding: 5px;
+    display: none;
+    background-color:#00CED1;
+    }
+
+#container #right div.panel.show {
+    display: block;
+   }
+
+#container #right button.accordion_{
+                                    background-color:#228B22;
+                                    color: black;
+                                    cursor: pointer;
+                                    padding: 18px;
+                                    width: 90%;
+                                    border: none;
+                                    text-align: left;
+                                    outline: none;
+                                    font-size: 15px;
+                                    transition: 0.4s;
+	                                border:1px solid black;
+	                                margin:3px;}
+        
+
+#container #right button.accordion_:hover{background-color:#990033;
+						                  color:white;}
+
+	
+#container #left{background-color:RGB(218,248,220);
+	  padding-top:0.1cm;
+	  padding-bottom:0.2cm;
+	  margin-left:0px;
+	  margin-bottom:-0.5cm;
+	  width:75%;
+	  opacity:0.9;
+	  border-radius:10px/10px;}
+	  
+#container #left h1{font-family:Gabriola, Times New Roman;
+		font-size:70px;
+		text-align:center;}  
+
+#container #left .paragraf{font-family:Times New Roman;
+		font-size:25px;
+		padding-left:30px;
+		padding-right:30px;
+		text-align:justify;}
+
+#container #left .paragraf .alineat{padding-left: 1.5cm;}
+
+#container #left .image{border:5px outset RGB(79,31,2);
+			            }
+
+#container #left .image1{border:5px outset RGB(79,31,2);
+                        width:750px;}
+
+#container #left .image5{border:5px outset RGB(79,31,2);
+                        width:500px;}
+
+footer{border:1px solid black;
+	   margin-bottom:0.2cm;
+	   width:1100px;
+	   background:linear-gradient(to left, black,lightblue,black);
+	   text-align:center;
+	   font-family:Arial Black;
+	   font-size:15px;
+	   padding:0.2cm;}  

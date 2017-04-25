@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>
+			Eftimie Murgu
+		</title>
+		<link rel="icon" href="../images/Stema-CS.png" type="image/x-icon">
+		<link rel="stylesheet" href="../css/Obiective_Style.css" type="text/css">
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	</head>
+  
+	<body>
+		<!--Meniul principal-->
+		<div id="Menu">
+			<center>
+				<img src="../images/Stema-RO.png" align="center" class="stemaRO">
+				<a href="../index.html"><button class="Menu_Button">Acasă</button></a>
+				<a href="obiective_turistice.html"><button class="Menu_Button"  style="background: linear-gradient(to bottom right, blue,yellow,red);}">Obiective turistice</button></a>
+				<a href="informații.html"><button class="Menu_Button">Informații</button></a>
+				<a href="galerie_foto.html"><button class="Menu_Button">Galerie foto</button></a>
+				<a href="contact.html"><button class="Menu_Button">Contact</button></a>
+				<img src="../images/Stema-CS1.png" align="center" class="stemaCS">
+			</center>
+		</div>
+
+		<div id="container">
+			<div id="right"> 
+			    <h2><b>Obiective turistice</b></h2>
+				<button class="accordion">Morile de apă</button>
+						<div class="panel">
+							<p>Pe Valea Rudăriei s-au păstrat în mod miraculos 22 de mori cu ciutură, din cele 51 câte au existat.
+							   <br><br>
+							   <b>Pentru a afla mai multe click pe <a href="mori_apă.html"><i>Complexul Mulinologic</i></a></b>
+							</p>
+						</div>
+
+				<button class="accordion">Valea Liliacului</button>
+						<div class="panel">
+							<p>La o distanță de 2,5 km de intrarea în chei, valea atinge o lățime mai mare formând o poiană, unde se sărbătorea în fiecare an “Ziua Liliacului”.
+								<br><br>
+								<b>Pentru a afla mai multe click pe <a href="zi_liliac.html"><i>Ziua Liliacului</i></a></b>
+							</p>
+						</div>
+
+				<button class="accordion">Muzeul satului</button>
+						<div class="panel">
+							<p>Reprezintă un punct de interes pentru vizitatorii Văii Almăjului din Banatul montan.
+							   <br><br>
+								<b>Pentru a afla mai multe click pe <a href="muzeu.html"><i>Muzeul satului</i></a></b>
+							</p>
+						</div>
+
+			<script>
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+						acc[i].onclick = function(){
+						this.classList.toggle("active");
+						this.nextElementSibling.classList.toggle("show");
+													}
+			}</script>
+
+			</div>
+
+			<div id="left">
+				<h1>Eftimie Murgu</h1>
+				 <p class="paragraf">
+                     <span class="alineat">Această</span> comună este locul perfect pentru a-ți petrece concediul alături de familie, de cei dragi sau cu prietenii.Aici vei găsi liniște și pace și vei fi departe de aglomerația din orașul tău.
+                </p>
+				
+                <p class="paragraf">
+                    <span class="alineat">Sunt</span> locuri frumoase ca în povești, pline de legende, și nu în ultimul rând, oamenii sunt foarte primitori!
+                </p>
+                
+                <p class="paragraf">
+                    <span class="alineat">În</span> partea dreaptă puteți da click pe oricare dintre <i>obiectivele turistice</i> pentru a afla mai multe detalii.
+				</p>
+            
+				<center><img src="../images/Primăria.jpg" class="image" alt="Această imagine nu poate fi afișată!" title="Primăria din Eftimie Murgu"/></center>
+				<br><br>
+			</div>
+		</div>
+		
+		<footer>
+				© Copyright 2017 | Toate drepturile rezervate
+				<br>
+				Web design by Samuel Turculescu
+		</footer>
+	</body>	
+</html>

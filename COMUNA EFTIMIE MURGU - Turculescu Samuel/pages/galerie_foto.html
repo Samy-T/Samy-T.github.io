@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eftimie Murgu</title>
+		<link rel="icon" href="../images/Stema-CS.png" type="image/x-icon">
+		<link rel="stylesheet" href="../css/Galerie_Style.css" type="text/css">
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	</head> 
+	
+	<body>
+		<!--Meniul principal-->
+		<div id="Menu">
+			<center>
+				<img src="../images/Stema-RO.png" align="center" class="stemaRO">
+				<a href="../index.html"><button class="Menu_Button">Acasă</button></a>
+				<a href="obiective_turistice.html"><button class="Menu_Button" >Obiective turistice</button></a>
+				<a href="informații.html"><button class="Menu_Button">Informații</button></a>
+				<a href="galerie_foto.html"><button class="Menu_Button"  style="background: linear-gradient(to bottom right, blue,yellow,red);}">Galerie foto</button></a>
+				<a href="contact.html"><button class="Menu_Button">Contact</button></a>
+				<img src="../images/Stema-CS1.png" align="center" class="stemaCS">
+			</center>
+		</div>
+
+		<div id="container">
+			<div id="right"> 
+			<h2><b>Albume foto</b></h2>
+				<a href="../gallery/gallery/Mori de apă.html"><button class="accordion">Morile de apă</button></a>
+				<a href="../gallery/gallery/Muzeul satului.html"><button class="accordion">Muzeul satului</button></a>	
+				<a href="../gallery/gallery/Valea Rudăriei.html"><button class="accordion">Valea Rudăriei</button></a>		
+				<a href="../gallery/gallery/Lunea cornilor.html"><button class="accordion">Lunea cornilor</button></a>
+				<a href="../gallery/gallery/Dezastru natural.html"><button class="accordion">Dezastru natural</button></a>
+			<script>
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+						acc[i].onclick = function(){
+						this.classList.toggle("active");
+													}
+			}</script>
+			</div>
+
+			<div id="left">
+				<h1>Galerie foto</h1>
+                
+				 <p class="paragraf_galerie">
+                     În partea dreaptă puteți alege ce album de fotografii doriți să vizualizați.
+				</p>   
+                
+				<center>
+                    <img src="../images/colaj.jpg" class="image" alt="Această imagine nu poate fi afișată!"/>
+                </center>
+				<br><br>
+			</div>
+		</div>
+		
+		<footer>
+				© Copyright 2017 | Toate drepturile rezervate
+				<br>
+				Web design by Samuel Turculescu
+		</footer>	
+	</body>
+</html>

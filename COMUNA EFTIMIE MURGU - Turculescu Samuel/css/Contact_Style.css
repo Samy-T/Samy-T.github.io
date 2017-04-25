@@ -1,0 +1,94 @@
+html{background-color:RGB(42,42,42);}
+
+body{background-color:RGB(42,42,42);
+     background-repeat: no-repeat;	
+     margin:auto;
+      width:1100px;}
+	   
+#Menu{border:0px solid black;
+      position:fixed;
+	  left:0;
+	  background-color:RGB(42,42,42);
+	  outline-width:8px;
+      outline-style:solid;
+	  outline-color:RGB(42,42,42);
+	  z-index:10;
+	  width:100%;
+	  max-width:100%;
+	  min-width:1200px;}
+	  
+#Menu .stemaRO{ width:50px;
+        height:70px;
+        margin-left:-1cm;
+		}
+		
+#Menu button.Menu_Button{width:4.9cm;
+	               height:1cm;
+				   background-color:RGB(3,146,214);
+				   border:0px;
+				   margin:0.3cm;
+				   border-radius:30px/30px;
+				   color:black;
+				   font-size:20px;
+				   }
+				   
+				
+#Menu button.Menu_Button:hover{background: linear-gradient(to bottom right, blue,yellow,red);
+				              cursor:pointer;}
+
+#Menu button.Menu_Button:focus {outline:0;}
+               	
+	
+#Menu .stemaCS{ width:60px;
+        height:80px;
+        margin-right:-1cm;
+		}
+
+#container{border:3px solid black;
+		  position:relative;		  
+          top:0cm;
+		  background: linear-gradient(to bottom, RGB(31,72,148),RGB(4,153,68),RGB(4,116,153));
+		  width:1080p;
+		  font-family:Times New Roman;
+		  font-size:20px;
+		  text-align:left;
+		  padding:0.5cm;
+		  color:white;
+		  }	 
+
+#container .form{border:2px solid white;}
+
+#container .form1{float:left;
+		width:50%;}
+
+#container .form2{float:right;}
+
+#container .Samy{margin-top: 0.5cm;
+                padding:0.5cm;
+                display:flex;
+                border:3px solid black; 
+}
+
+#container .Samy .text1{width:13.5cm;
+                        padding: 0.2cm;
+                       padding-top: 0.7cm;}
+
+#container .Samy .Fotografie{margin:0.2cm;}
+
+#container .Samy .text2{width:12cm;
+                        text-align: justify;
+                        padding: 0.5cm;
+                        }
+
+#container .Samy .text2 .alineat{padding-left: 1cm;}
+
+	 
+footer{border:1px solid black;
+       margin-top:0.2cm;
+	   margin-bottom:0.1cm;
+	   background:linear-gradient(to left, black,lightblue,black);
+	   text-align:center;
+	   font-family:Arial Black;
+	   font-size:15px;
+	   padding:0.2cm;}  
+	 

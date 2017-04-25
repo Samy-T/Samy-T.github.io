@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eftimie Murgu</title>
+		<link rel="icon" href="../images/Stema-CS.png" type="image/x-icon">
+		<link rel="stylesheet" href="../css/Informații_Style.css" type="text/css">
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<style>    
+			div.panel1 {
+						padding: 5px;
+						display: block;
+						background-color:#00CED1;}
+			
+			.paragraf_link{font-family:Times New Roman;
+						font-size:25px;
+						padding-left:30px;
+						padding-right:30px;
+						text-align:center;}
+		</style>
+	</head>
+    
+	<body>
+		<!--Meniul principal-->
+		<div id="Menu">
+			<center>
+				<img src="../images/Stema-RO.png" align="center" class="stemaRO">
+				<a href="../index.html"><button class="Menu_Button">Acasă</button></a>
+				<a href="obiective_turistice.html"><button class="Menu_Button">Obiective turistice</button></a>
+				<a href="informații.html"><button class="Menu_Button"  style="background: linear-gradient(to bottom right, blue,yellow,red);}">Informații</button></a>
+				<a href="galerie_foto.html"><button class="Menu_Button">Galerie foto</button></a>
+				<a href="contact.html"><button class="Menu_Button">Contact</button></a>
+				<img src="../images/Stema-CS1.png" align="center" class="stemaCS">
+			</center>
+		</div>
+
+		<div id="container">
+			<div id="right"> 
+			<h2><b>Informații</b></h2>
+
+				<button class="accordion"><b>Personalități</b></button>
+						<div class="panel">
+							<a href="Eftimie Murgu.html"><button class="accordion_"><i>- Eftimie Murgu</i></button></a>
+							<a href="Dr_Ion_Sârbu.html"><button class="accordion_"><i>- Dr. Ion Sârbu</i></button></a>
+						</div>
+						
+				<a href="dezastru natural.html"><button class="accordion"  style="background-color:#990033; color:white;"><b>Dezastru natural</b></button></a>
+
+				<button class="accordion"><b>Obiceiuri și tradiții</b></button>
+						<div class="panel">
+							<a href="smâlțul oilor.html"><button class="accordion_"><i>- Smâlțul oilor</i></button></a>
+							<a href="lunea cornilor.html"><button class="accordion_"><i>- Lunea Cornilor</i></button></a>
+							<a href="ruga bănățeană.html"><button class="accordion_"><i>- Ruga bănățeană</i></button></a>
+						</div>
+					
+				<a href="Primăria Eftimie Murgu.html"><button class="accordion"><b>Primăria Eftimie Murgu</b></button></a>
+				
+				<button class="accordion"><b>Informații pentru turiști</b></button>
+						<div class="panel">
+							<a href="cazare.html"><button class="accordion_"><i>- Cazare</i></button></a>
+							<a href="restaurant.html"><button class="accordion_"><i>- Restaurant</i></button></a>
+							<a href="localizare.html"><button class="accordion_"><i>- Localizare pe hartă</i></button></a>
+							<a href="meteo.html"><button class="accordion_"><i>- Prognoza meteo</i></button></a>
+						</div>
+
+			<script>
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+						acc[i].onclick = function(){
+						this.classList.toggle("active");
+						this.nextElementSibling.classList.toggle("show");
+													}
+			}</script>
+			</div>
+	
+			<div id="left">
+				<h1>Dezastru natural</h1>
+				
+                <p class="paragraf">
+                    <span class="alineat">În</span> data de 21 septembrie 2014 a început o ploaie puternică ce a dus la diferite dezastre în comuna Eftimie Murgu. O parte din morile de pe valea Rudăriei au fost distruse, iar multe case ale sătenilor au fost inundate. 
+                </p>	
+                
+				<center>
+                        <img src="../images/viitură.jpg" class="image" width="765" height="500" title="Dezastru natural" alt="Această imagine nu poate fi afișată!"/>
+                </center>
+                
+				<p class="paragraf">
+                    <span class="alineat">Viiturile</span> puternice din prima lună de toamnă au măturat serios cel mai mare complex mulinologic din Europa. Mai jos puteți viziona un videoclip cu urmările pe care le-a produs acest dezastru natural.		
+				</p>	
+				
+                <center>
+					<video controls width="760px">
+						<source src="../videos/Dezastru natural.mp4" type="video/mp4">
+						<source src="../videos/Dezastru natural.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+					</video>
+				</center>
+				
+                <p class="paragraf_link">
+					Mai multe imagini despre acest dezastru natural le puteți găsi în <br>
+                    <a href="../gallery/gallery/Dezastru natural.html">Galerie foto</a>. 
+				</p>
+			</div>
+		</div>
+		
+		<footer>
+				© Copyright 2017 | Toate drepturile rezervate
+				<br>
+				Web design by Samuel Turculescu
+		</footer>
+	
+	</body>
+</html>
