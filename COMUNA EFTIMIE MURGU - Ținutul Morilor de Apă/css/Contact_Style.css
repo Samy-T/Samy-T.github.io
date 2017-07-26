@@ -61,6 +61,10 @@ body{background-color:RGB(42,42,42);
 #container .form1{float:left;
 		width:50%;}
 
+#container .form .form1 .message_area{width:400px;
+				      height:150px;}
+
+
 #container .form2{float:right;}
 
 #container .Samy{margin-top: 0.5cm;
